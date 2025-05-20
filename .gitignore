@@ -1,0 +1,52 @@
+# source files and cache
+src/config/variables.json
+logs
+pgdata
+plugins
+postgres-db-volume
+*.pyc
+*.exe
+.ipynb_checkpoints
+__pycache__
+.ruff_cache
+.pytest_cache
+
+# credentials
+kaggle.json
+gcs_credentials.json
+default_filename.txt
+ecomm-invoice-kde-aws-iam_accessKeys.csv
+
+# data
+data.json
+
+# scripts
+test.py
+test.ipynb
+
+# infrastructure
+.terraform*
+terraform.*
+
+# ML models
+*_model.pkl
+
+# notebook
+revise.ipynb
+unit_test.ipynb
+
+# environment
+pyenv
+.env
+
+# local environment testing
+*.db
+*.duckdb
+output/artifact
+output/models
+_process.sh
+kde_pyspark_ingestion_framework.egg-info
+test_output
+
+# etc
+*.pdf
